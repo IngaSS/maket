@@ -1,0 +1,471 @@
+[{
+        "Date": "2019-07-07 16:32:06",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "OPTIONS",
+        "Syslogtag": "sip:",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " 100@213.248.33.249 {cybergrid.exploitbox.ru} SIP/2.0#015#012Via: SIP/2.0/UDP 77.247.110.209:5080;branch=z9 ..."
+    },
+    {
+        "Date": "2019-07-07 06:47:01",
+        "Facility": "KERN",
+        "Severity": "ERR",
+        "Host": "cybergrid",
+        "Syslogtag": "kernel:",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " [7291795.752353] blk_update_request: critical target error, dev sda, sector 5378"
+    },
+    {
+        "Date": "2019-07-07 06:47:01",
+        "Facility": "KERN",
+        "Severity": "INFO",
+        "Host": "cybergrid",
+        "Syslogtag": "kernel:",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " [7291795.752347] sd 32:0:0:0: [sda] tag#0 CDB: Unmap/Read sub-channel 42 00 00 0 ..."
+    },
+    {
+        "Date": "2019-07-07 06:47:01",
+        "Facility": "SYSLOG",
+        "Severity": "INFO",
+        "Host": "cybergrid",
+        "Syslogtag": "kernel:",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " [7291795.752341] sd 32:0:0:0: [sda] tag#0 Add. Sense: Invalid field in parameter ..."
+    },
+    {
+        "Date": "2019-07-07 06:47:01",
+        "Facility": "KERN",
+        "Severity": "INFO",
+        "Host": "cybergrid",
+        "Syslogtag": "kernel:",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " [7291795.752335] sd 32:0:0:0: [sda] tag#0 Sense Key : Illegal Request [current]"
+    },
+    {
+        "Date": "2019-07-07 06:47:01",
+        "Facility": "KERN",
+        "Severity": "INFO",
+        "Host": "cybergrid",
+        "Syslogtag": "kernel:",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " [7291795.752329] sd 32:0:0:0: [sda] tag#0 FAILED Result: hostbyte=DID_OK driverb ..."
+    },
+    {
+        "Date": "2019-07-04 10:16:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,info",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: defconf deassigned 192.168.0.100 from 68:F7:28:51:2D:3E"
+    },
+    {
+        "Date": "2019-07-04 10:16:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,info",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_info: defconf deassigned 192.168.0.100 from 68:F7:28:51:2D:3E"
+    },
+    {
+        "Date": "2019-07-04 10:06:59",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "interface,info",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_info: ether3 link down"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Domain-Server = 192.168.0.50,8.8.8.8 {dns.google} ,8.8.4.4 {dns.google}"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Router = 192.168.0.50"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Subnet-Mask = 255.255.255.0"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Server-Id = 192.168.0.50"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Msg-Type = ack"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: chaddr = 68:F7:28:51:2D:3E"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: siaddr = 192.168.0.50"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: ciaddr = 192.168.0.100"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: flags = broadcast"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: defconf sending ack with id 962584191 to 255.255.255.255"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Parameter-List = Subnet-Mask,Domain-Name,Router,Domain-Serv ..."
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Class-Id = "
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Host-Name = 6D-69-6E-69-2D-8F-8A"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Client-Id = 01-68-F7-28-51-2D-3E"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Msg-Type = inform"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: chaddr = 68:F7:28:51:2D:3E"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: ciaddr = 192.168.0.100"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: flags = broadcast"
+    },
+    {
+        "Date": "2019-07-04 10:06:16",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: defconf received inform with id 962584191 from 192.168.0.100"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Domain-Server = 192.168.0.50,8.8.8.8 {dns.google} ,8.8.4.4 {dns.google}"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Router = 192.168.0.50"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Subnet-Mask = 255.255.255.0"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Address-Time = 600"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Server-Id = 192.168.0.50"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Msg-Type = ack"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: chaddr = 68:F7:28:51:2D:3E"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: siaddr = 192.168.0.50"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: yiaddr = 192.168.0.100"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: ciaddr = 0.0.0.0"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: flags = broadcast"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: defconf sending ack with id 2470781839 to 255.255.255.255"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Parameter-List = Subnet-Mask,Domain-Name,Router,Domain-Serv ..."
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Class-Id = "
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Client-FQDN = 00-00-00-6D-69-6E-69-2D-8F-8A"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Host-Name = 6D-69-6E-69-2D-8F-8A"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Address-Request = 192.168.0.100"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Client-Id = 01-68-F7-28-51-2D-3E"
+    },
+    {
+        "Date": "2019-07-04 10:06:12",
+        "Facility": "USER",
+        "Severity": "NOTICE",
+        "Host": "host221.92.170.prov.ru",
+        "Syslogtag": "dhcp,debug,packet",
+        "ProcessID": null,
+        "Messagetype": "Syslog",
+        "Message": " sochi_tt1_dhcp: Msg-Type = request"
+    }
+]
